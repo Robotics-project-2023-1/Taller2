@@ -1,3 +1,4 @@
 [console_scripts]
+nodo_prueba = mi_robot_2.nodo_prueba:main
 robot_teleop = mi_robot_2.robot_teleop:main
 

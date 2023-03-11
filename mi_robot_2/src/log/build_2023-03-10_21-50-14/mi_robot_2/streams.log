@@ -1,0 +1,39 @@
+[1.996s] Invoking command in '/home/robotica/mi_robot_2/src/mi_robot_2': PYTHONPATH=/home/robotica/mi_robot_2/src/build/mi_robot_2/prefix_override:/home/robotica/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mi_robot_2 build --build-base /home/robotica/mi_robot_2/src/build/mi_robot_2/build install --record /home/robotica/mi_robot_2/src/build/mi_robot_2/install.log --single-version-externally-managed
+[2.662s] running egg_info
+[2.664s] creating ../build/mi_robot_2/mi_robot_2.egg-info
+[2.665s] writing ../build/mi_robot_2/mi_robot_2.egg-info/PKG-INFO
+[2.666s] writing dependency_links to ../build/mi_robot_2/mi_robot_2.egg-info/dependency_links.txt
+[2.666s] writing entry points to ../build/mi_robot_2/mi_robot_2.egg-info/entry_points.txt
+[2.667s] writing requirements to ../build/mi_robot_2/mi_robot_2.egg-info/requires.txt
+[2.667s] writing top-level names to ../build/mi_robot_2/mi_robot_2.egg-info/top_level.txt
+[2.668s] writing manifest file '../build/mi_robot_2/mi_robot_2.egg-info/SOURCES.txt'
+[2.677s] reading manifest file '../build/mi_robot_2/mi_robot_2.egg-info/SOURCES.txt'
+[2.680s] writing manifest file '../build/mi_robot_2/mi_robot_2.egg-info/SOURCES.txt'
+[2.681s] running build
+[2.682s] running build_py
+[2.683s] creating /home/robotica/mi_robot_2/src/build/mi_robot_2/build
+[2.683s] creating /home/robotica/mi_robot_2/src/build/mi_robot_2/build/lib
+[2.683s] creating /home/robotica/mi_robot_2/src/build/mi_robot_2/build/lib/mi_robot_2
+[2.684s] copying mi_robot_2/__init__.py -> /home/robotica/mi_robot_2/src/build/mi_robot_2/build/lib/mi_robot_2
+[2.684s] copying mi_robot_2/robot_teleop.py -> /home/robotica/mi_robot_2/src/build/mi_robot_2/build/lib/mi_robot_2
+[2.685s] running install
+[2.687s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.688s]   warnings.warn(
+[2.690s] running install_lib
+[2.693s] creating /home/robotica/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2
+[2.695s] copying /home/robotica/mi_robot_2/src/build/mi_robot_2/build/lib/mi_robot_2/__init__.py -> /home/robotica/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2
+[2.696s] copying /home/robotica/mi_robot_2/src/build/mi_robot_2/build/lib/mi_robot_2/robot_teleop.py -> /home/robotica/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2
+[2.698s] byte-compiling /home/robotica/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2/__init__.py to __init__.cpython-310.pyc
+[2.700s] byte-compiling /home/robotica/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2/robot_teleop.py to robot_teleop.cpython-310.pyc
+[2.701s] running install_data
+[2.704s] creating /home/robotica/mi_robot_2/src/install/mi_robot_2/share/ament_index
+[2.704s] creating /home/robotica/mi_robot_2/src/install/mi_robot_2/share/ament_index/resource_index
+[2.705s] creating /home/robotica/mi_robot_2/src/install/mi_robot_2/share/ament_index/resource_index/packages
+[2.706s] copying resource/mi_robot_2 -> /home/robotica/mi_robot_2/src/install/mi_robot_2/share/ament_index/resource_index/packages
+[2.707s] copying package.xml -> /home/robotica/mi_robot_2/src/install/mi_robot_2/share/mi_robot_2
+[2.708s] running install_egg_info
+[2.714s] Copying ../build/mi_robot_2/mi_robot_2.egg-info to /home/robotica/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2-0.0.0-py3.10.egg-info
+[2.717s] running install_scripts
+[2.772s] Installing robot_teleop script to /home/robotica/mi_robot_2/src/install/mi_robot_2/lib/mi_robot_2
+[2.773s] writing list of installed files to '/home/robotica/mi_robot_2/src/build/mi_robot_2/install.log'
+[2.865s] Invoked command in '/home/robotica/mi_robot_2/src/mi_robot_2' returned '0': PYTHONPATH=/home/robotica/mi_robot_2/src/build/mi_robot_2/prefix_override:/home/robotica/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mi_robot_2 build --build-base /home/robotica/mi_robot_2/src/build/mi_robot_2/build install --record /home/robotica/mi_robot_2/src/build/mi_robot_2/install.log --single-version-externally-managed

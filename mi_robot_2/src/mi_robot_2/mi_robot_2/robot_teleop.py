@@ -1,78 +1,62 @@
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import Twist    #Tipo de mensaje que se publicara al topico robot_cmdVel
-from pynput import keyboard   #LIbreria para leer teclado
+from geometry_msgs.msg import Twist
+from pynput import keyboard
 from pynput.keyboard import Key, Listener
-
-from std_msgs.msg import String
 
 lin = input("Introduzca la velocidad lineal: ")
 ang = input("Introduzca la velocidad angular: ")
 
-class robot_teleop(Node):
+class RobotTeleop(Node):
 
-    def _init_(self):
+    def __init__(self):
 
-        super()._init_('robot_teleop')
-        self.publisher_1 = self.create_publisher(Twist, 'robot_cmdVel', 10)  # 
-        self.publisher_2 = self.create_publisher(String, 'robot_teclas', 10)  # 
-        timer_period = 0.5  # seconds
+        super().__init__('robot_teleop')
+        self.publisher_ = self.create_publisher(Twist, 'robot_cmdVel', 10)
+        timer_period = 0.5
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
+        self.last_key = None
 
-    def on_press(self,key):
+    def on_press(self, key):
 
-        msg_cmdVel = Twist()  
-        msg_tecla = String()  
+        msg = Twist()    
 
         try:      
 
-            if key.char == "a": #adelante
-
-                msg_tecla.data = "a"
-                msg_cmdVel.linear.x = -float(lin)
-                msg_cmdVel.linear.z = 0.0
-                msg_cmdVel.angular.z = 0.0
-                self.publisher_1.publish(msg_cmdVel)
-                self.get_logger().info('Izquierda')
-                self.publisher_2.publish(msg_tecla)
-                self.get_logger().info('Izquierda publicada')
+            if key.char == "w": #adelante
+                msg.linear.x = float(lin)
+                msg.linear.z = 0.0
+                msg.angular.z = 0.0
+                self.publisher_.publish(msg)
+                self.get_logger().info('Adelante')
                 self.i += 1        
 
-            elif key.char == "d": #atras
+            elif key.char == "s": #atras
 
-                msg_tecla.data = "d"
-                msg_cmdVel.linear.x = float(lin)
-                msg_cmdVel.linear.z = 0.0
-                msg_cmdVel.angular.z = 0.0
-                self.publisher_1.publish(msg_cmdVel)
-                self.get_logger().info('Derecha')
-                self.publisher_2.publish(msg_tecla)
-                self.get_logger().info('Derecha publicada')
+                msg.linear.x = -float(lin)
+                msg.linear.z = 0.0
+                msg.angular.z = 0.0
+                self.publisher_.publish(msg)
+                self.get_logger().info('Atras')
                 self.i += 1
-                
-            elif key.char == "l": #giro derecha
 
-                msg_tecla.data = "l"
-                msg_cmdVel.linear.x = 0.0
-                msg_cmdVel.linear.z = 0.0
-                msg_cmdVel.angular.z = float(ang)
-                self.publisher_1.publish(msg_cmdVel)
+            elif key.char == "d": #giro derecha
+
+                msg.linear.x = 0.0
+                msg.linear.z = 0.0
+                msg.angular.z = -float(ang)
+                self.publisher_.publish(msg)
                 self.get_logger().info('Giro derecha')
-                self.publisher_2.publish(msg_tecla)
-                self.get_logger().info('Giro derecha publicada')
                 self.i += 1
 
-            elif key.char == "k": #giro izquierda
+            elif key.char == "a": #giro izquierda
 
-                msg_tecla.data = "k"
-                msg_cmdVel.linear.x = 0.0
-                msg_cmdVel.linear.z = 0.0
-                msg_cmdVel.angular.z = -float(ang)
-                self.publisher_1.publish(msg_cmdVel)
+                msg.linear.x = 0.0
+                msg.linear.z = 0.0
+                msg.angular.z = float(ang)
+                self.publisher_.publish(msg)
                 self.get_logger().info('Giro izquierda')
-                self.publisher_2.publish(msg_tecla)
-                self.get_logger().info('Giro izquierda publicada')
                 self.i += 1
 
         except: 
@@ -82,15 +66,21 @@ class robot_teleop(Node):
 
     def on_release(self, key):
 
-        msg_cmdVel = Twist()
-        msg_cmdVel.linear.x = 0.0
-        msg_cmdVel.linear.z = 0.0
-        msg_cmdVel.angular.z = 0.0
-        self.publisher_1.publish(msg_cmdVel)
+        msg = Twist()
+        msg.linear.x = 0.0
+        msg.linear.z = 0.0
+        msg.angular.z = 0.0
+        self.publisher_.publish(msg)
         self.get_logger().info('Stop')
-        self.i += 1               
+        self.i += 1
 
-    def timer_callback(self):   #Matar esto y dejar el listener en el init?
+    def timer_callback(self):
+        with keyboard.Listener(
+                on_press=self.on_press,
+                on_release=self.on_release) as listener:
+            listener.join()               
+
+    def timer_callback(self):
         with keyboard.Listener(
                 on_press=self.on_press,
                 on_release=self.on_release) as listener:
@@ -100,13 +90,13 @@ class robot_teleop(Node):
 def main(args=None):
 
     rclpy.init(args=args)
-    robot_teleop = robot_teleop()
+    robot_teleop = RobotTeleop()
     rclpy.spin(robot_teleop)
     # Destroy the node explicitly
-   # (optional - otherwise it will be done automatically
-   # when the garbage collector destroys the node object)
+    # (optional - otherwise it will be done automatically
+    # when the garbage collector destroys the node object)
     robot_teleop.destroy_node()
     rclpy.shutdown()
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     main()
