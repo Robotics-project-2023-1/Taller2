@@ -14,14 +14,15 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='robotica',
-    maintainer_email='f.alvarezl@uniandes.edu.co',
+    maintainer_email='robotica@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
+    'console_scripts': [
             'robot_teleop = mi_robot_2.robot_teleop:main',
-            'nodo_prueba = mi_robot_2.nodo_prueba:main'
+            'robot_interface = mi_robot_2.robot_interface:main',
+            'robot_player = mi_robot_2.robot_player:main',  
         ],
     },
 )
