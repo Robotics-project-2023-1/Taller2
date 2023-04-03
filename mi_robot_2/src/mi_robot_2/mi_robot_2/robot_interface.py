@@ -37,7 +37,7 @@ def creo_interfaz(): #esta funcion corre como un segundo hilo
     archivo = os.path.dirname(__file__)
     f = os.path.expanduser(archivo + '/' + name + '.jpeg')
     #img = Image.open(f) #modificado para encontrar el path de la foto, si no les sirve descomenten la linea de abajo y comenten esto
-    img = Image.open('gato.jpeg')
+    img = Image.open('/home/robotica/Desktop/Taller2/mi_robot_2/src/mi_robot_2/mi_robot_2/grid.jpeg')
     imagen = img.resize((400,400))
     new_image = ImageTk.PhotoImage(imagen)
     etiqueta_imagen = tk.Label(root, image=new_image)
