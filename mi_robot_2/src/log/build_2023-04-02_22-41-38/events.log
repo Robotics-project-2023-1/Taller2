@@ -1,0 +1,392 @@
+[0.000000] (-) TimerEvent: {}
+[0.008377] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.008457] (mi_robot_2) JobQueued: {'identifier': 'mi_robot_2', 'dependencies': OrderedDict([('robot_interfaces', '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces')])}
+[0.008484] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.100017] (-) TimerEvent: {}
+[0.188163] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[0.193085] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'build'}
+[0.195100] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces', '--', '-j1', '-l1'], 'cwd': '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotica'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotica'), ('OLDPWD', '/home/robotica/Desktop/Taller2/mi_robot_2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('SYSTEMD_EXEC_PID', '2003'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotica'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotica-VirtualBox:@/tmp/.ICE-unix/1985,unix/robotica-VirtualBox:/tmp/.ICE-unix/1985'), ('Coppelia_Root', '$/home/robotica/Downloads/Coppelia'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/07fd271e_b708_46a4_9250_8d5ece07bcff'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.220672] (-) TimerEvent: {}
+[0.321363] (-) TimerEvent: {}
+[0.421836] (-) TimerEvent: {}
+[0.522621] (-) TimerEvent: {}
+[0.623327] (-) TimerEvent: {}
+[0.724196] (-) TimerEvent: {}
+[0.775298] (robot_interfaces) StdoutLine: {'line': b'[  3%] Built target robot_interfaces_srv__cpp\n'}
+[0.824451] (-) TimerEvent: {}
+[0.848506] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces_srv__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.924984] (-) TimerEvent: {}
+[0.975287] (robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target robot_interfaces_srv__rosidl_typesupport_cpp\n'}
+[1.025094] (-) TimerEvent: {}
+[1.067207] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces_srv__rosidl_generator_c\x1b[0m\n'}
+[1.125613] (-) TimerEvent: {}
+[1.151854] (robot_interfaces) StdoutLine: {'line': b'[ 22%] Built target robot_interfaces_srv__rosidl_generator_c\n'}
+[1.226909] (-) TimerEvent: {}
+[1.228761] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces_srv__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.327301] (-) TimerEvent: {}
+[1.340675] (robot_interfaces) StdoutLine: {'line': b'[ 32%] Built target robot_interfaces_srv__rosidl_typesupport_fastrtps_c\n'}
+[1.427568] (-) TimerEvent: {}
+[1.467736] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces_srv__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.527902] (-) TimerEvent: {}
+[1.588691] (robot_interfaces) StdoutLine: {'line': b'[ 41%] Built target robot_interfaces_srv__rosidl_typesupport_introspection_c\n'}
+[1.628261] (-) TimerEvent: {}
+[1.707109] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces_srv__rosidl_typesupport_c\x1b[0m\n'}
+[1.728388] (-) TimerEvent: {}
+[1.775252] (robot_interfaces) StdoutLine: {'line': b'[ 51%] Built target robot_interfaces_srv__rosidl_typesupport_c\n'}
+[1.828816] (-) TimerEvent: {}
+[1.865481] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces_srv__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.929327] (-) TimerEvent: {}
+[1.990211] (robot_interfaces) StdoutLine: {'line': b'[ 61%] Built target robot_interfaces_srv__rosidl_typesupport_fastrtps_cpp\n'}
+[2.029622] (-) TimerEvent: {}
+[2.101030] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces_srv__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.130180] (-) TimerEvent: {}
+[2.217220] (robot_interfaces) StdoutLine: {'line': b'[ 70%] Built target robot_interfaces_srv__rosidl_typesupport_introspection_cpp\n'}
+[2.230358] (-) TimerEvent: {}
+[2.331139] (-) TimerEvent: {}
+[2.395235] (robot_interfaces) StdoutLine: {'line': b'[ 70%] Built target robot_interfaces_srv\n'}
+[2.431353] (-) TimerEvent: {}
+[2.531869] (-) TimerEvent: {}
+[2.630560] (robot_interfaces) StdoutLine: {'line': b'[ 70%] Built target ament_cmake_python_copy_robot_interfaces\n'}
+[2.632340] (-) TimerEvent: {}
+[2.732911] (-) TimerEvent: {}
+[2.833703] (-) TimerEvent: {}
+[2.934421] (-) TimerEvent: {}
+[3.035396] (-) TimerEvent: {}
+[3.136154] (-) TimerEvent: {}
+[3.236863] (-) TimerEvent: {}
+[3.337504] (-) TimerEvent: {}
+[3.437991] (-) TimerEvent: {}
+[3.538519] (-) TimerEvent: {}
+[3.638943] (-) TimerEvent: {}
+[3.739589] (-) TimerEvent: {}
+[3.840315] (-) TimerEvent: {}
+[3.941062] (-) TimerEvent: {}
+[4.041596] (-) TimerEvent: {}
+[4.142968] (-) TimerEvent: {}
+[4.243495] (-) TimerEvent: {}
+[4.344128] (-) TimerEvent: {}
+[4.444925] (-) TimerEvent: {}
+[4.545443] (-) TimerEvent: {}
+[4.645894] (-) TimerEvent: {}
+[4.746382] (-) TimerEvent: {}
+[4.846857] (-) TimerEvent: {}
+[4.947780] (-) TimerEvent: {}
+[5.048145] (-) TimerEvent: {}
+[5.148747] (-) TimerEvent: {}
+[5.249254] (-) TimerEvent: {}
+[5.287491] (robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.292266] (robot_interfaces) StdoutLine: {'line': b'writing robot_interfaces.egg-info/PKG-INFO\n'}
+[5.302542] (robot_interfaces) StdoutLine: {'line': b'writing dependency_links to robot_interfaces.egg-info/dependency_links.txt\n'}
+[5.304640] (robot_interfaces) StdoutLine: {'line': b'writing top-level names to robot_interfaces.egg-info/top_level.txt\n'}
+[5.320563] (robot_interfaces) StdoutLine: {'line': b"reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[5.327307] (robot_interfaces) StdoutLine: {'line': b"writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[5.349772] (-) TimerEvent: {}
+[5.450629] (-) TimerEvent: {}
+[5.551348] (-) TimerEvent: {}
+[5.652024] (-) TimerEvent: {}
+[5.652309] (robot_interfaces) StdoutLine: {'line': b'[ 70%] Built target ament_cmake_python_build_robot_interfaces_egg\n'}
+[5.752351] (-) TimerEvent: {}
+[5.810550] (robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target robot_interfaces_srv__py\n'}
+[5.855305] (-) TimerEvent: {}
+[5.935539] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces_srv__rosidl_generator_py\x1b[0m\n'}
+[5.955588] (-) TimerEvent: {}
+[6.056051] (-) TimerEvent: {}
+[6.064418] (robot_interfaces) StdoutLine: {'line': b'[ 80%] Built target robot_interfaces_srv__rosidl_generator_py\n'}
+[6.157921] (-) TimerEvent: {}
+[6.178497] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.258344] (-) TimerEvent: {}
+[6.279196] (robot_interfaces) StdoutLine: {'line': b'[ 87%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.358713] (-) TimerEvent: {}
+[6.378964] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.458885] (-) TimerEvent: {}
+[6.557538] (robot_interfaces) StdoutLine: {'line': b'[ 93%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[6.559345] (-) TimerEvent: {}
+[6.660004] (-) TimerEvent: {}
+[6.666031] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.760576] (-) TimerEvent: {}
+[6.806565] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[6.861191] (-) TimerEvent: {}
+[6.916245] (robot_interfaces) CommandEnded: {'returncode': 0}
+[6.961669] (-) TimerEvent: {}
+[7.062358] (-) TimerEvent: {}
+[7.162843] (-) TimerEvent: {}
+[7.263469] (-) TimerEvent: {}
+[7.363828] (-) TimerEvent: {}
+[7.464527] (-) TimerEvent: {}
+[7.565624] (-) TimerEvent: {}
+[7.659752] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'install'}
+[7.666035] (-) TimerEvent: {}
+[7.741474] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces'], 'cwd': '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotica'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotica'), ('OLDPWD', '/home/robotica/Desktop/Taller2/mi_robot_2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('SYSTEMD_EXEC_PID', '2003'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotica'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotica-VirtualBox:@/tmp/.ICE-unix/1985,unix/robotica-VirtualBox:/tmp/.ICE-unix/1985'), ('Coppelia_Root', '$/home/robotica/Downloads/Coppelia'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/07fd271e_b708_46a4_9250_8d5ece07bcff'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.766467] (-) TimerEvent: {}
+[7.815254] (robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.819491] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces\n'}
+[7.820074] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[7.823015] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[7.824010] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[7.824338] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__struct.h\n'}
+[7.824494] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__functions.h\n'}
+[7.824637] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__functions.c\n'}
+[7.824796] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__type_support.h\n'}
+[7.824956] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/reproducir.h\n'}
+[7.825087] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[7.827005] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.827659] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh\n'}
+[7.828134] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv\n'}
+[7.830249] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so\n'}
+[7.835973] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[7.836305] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[7.836453] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[7.836620] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__rosidl_typesupport_fastrtps_c.h\n'}
+[7.836792] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[7.837865] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.843142] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.845888] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[7.846279] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[7.846482] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[7.846651] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__rosidl_typesupport_introspection_c.h\n'}
+[7.846969] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__type_support.c\n'}
+[7.847213] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[7.847998] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.855292] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.856620] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so\n'}
+[7.857131] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[7.857437] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[7.857590] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[7.857797] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__builder.hpp\n'}
+[7.857949] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__traits.hpp\n'}
+[7.858090] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__struct.hpp\n'}
+[7.858261] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/reproducir.hpp\n'}
+[7.858457] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[7.858618] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[7.858821] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[7.858965] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/dds_fastrtps\n'}
+[7.859124] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.859538] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[7.859789] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.862601] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.863086] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[7.863252] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[7.863428] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[7.863591] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.863738] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__type_support.cpp\n'}
+[7.865366] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.867040] (-) TimerEvent: {}
+[7.871142] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.875108] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh\n'}
+[7.875642] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv\n'}
+[7.875874] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info\n'}
+[7.876132] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.876564] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.876943] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.879339] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.885320] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces\n'}
+[7.887225] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.889577] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.890178] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.890523] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv\n'}
+[7.890752] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_reproducir.py\n'}
+[7.890931] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/__init__.py\n'}
+[7.895091] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_reproducir_s.c\n'}
+[7.895571] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.895797] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.897335] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py\n'}
+[7.897577] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.897648] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces_srv__rosidl_generator_py.so\n'}
+[7.970961] (-) TimerEvent: {}
+[8.071696] (-) TimerEvent: {}
+[8.172280] (-) TimerEvent: {}
+[8.240145] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...\n"}
+[8.240409] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv'...\n"}
+[8.272820] (-) TimerEvent: {}
+[8.288408] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.289530] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.290576] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.291952] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces_srv__rosidl_generator_py.so\n'}
+[8.292417] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/srv/Reproducir.idl\n'}
+[8.292615] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/srv/Reproducir.srv\n'}
+[8.292823] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/srv/Reproducir_Request.msg\n'}
+[8.293000] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/srv/Reproducir_Response.msg\n'}
+[8.293181] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces\n'}
+[8.293392] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces\n'}
+[8.293574] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh\n'}
+[8.293819] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.294046] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/environment/path.sh\n'}
+[8.294290] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/environment/path.dsv\n'}
+[8.294499] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/local_setup.bash\n'}
+[8.294708] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/local_setup.sh\n'}
+[8.295017] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/local_setup.zsh\n'}
+[8.295196] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/local_setup.dsv\n'}
+[8.295406] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/package.dsv\n'}
+[8.297183] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces\n'}
+[8.314525] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_generator_cExport.cmake\n'}
+[8.315296] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.325720] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.326052] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.328477] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces_srv__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.328832] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces_srv__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.332077] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces_srv__rosidl_typesupport_cExport.cmake\n'}
+[8.332502] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces_srv__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.335116] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_generator_cppExport.cmake\n'}
+[8.339744] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.343245] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.355277] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces_srv__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.357273] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces_srv__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.362560] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces_srv__rosidl_typesupport_cppExport.cmake\n'}
+[8.362888] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces_srv__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.371213] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_generator_pyExport.cmake\n'}
+[8.371624] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.371846] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.372037] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.372244] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.372467] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.372658] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.373339] (-) TimerEvent: {}
+[8.374908] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.375156] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.379007] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake\n'}
+[8.379687] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake\n'}
+[8.380116] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/package.xml\n'}
+[8.397219] (robot_interfaces) CommandEnded: {'returncode': 0}
+[8.473532] (-) TimerEvent: {}
+[8.574009] (-) TimerEvent: {}
+[8.676428] (-) TimerEvent: {}
+[8.776834] (-) TimerEvent: {}
+[8.877760] (-) TimerEvent: {}
+[8.978533] (-) TimerEvent: {}
+[9.079091] (-) TimerEvent: {}
+[9.179886] (-) TimerEvent: {}
+[9.280854] (-) TimerEvent: {}
+[9.382782] (-) TimerEvent: {}
+[9.495272] (-) TimerEvent: {}
+[9.594924] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 0}
+[9.595646] (-) TimerEvent: {}
+[9.596065] (mi_robot_2) JobStarted: {'identifier': 'mi_robot_2'}
+[9.698765] (-) TimerEvent: {}
+[9.799580] (-) TimerEvent: {}
+[9.899965] (-) TimerEvent: {}
+[10.000721] (-) TimerEvent: {}
+[10.101475] (-) TimerEvent: {}
+[10.201886] (-) TimerEvent: {}
+[10.302481] (-) TimerEvent: {}
+[10.403272] (-) TimerEvent: {}
+[10.503756] (-) TimerEvent: {}
+[10.604573] (-) TimerEvent: {}
+[10.705124] (-) TimerEvent: {}
+[10.805771] (-) TimerEvent: {}
+[10.906492] (-) TimerEvent: {}
+[11.006922] (-) TimerEvent: {}
+[11.107561] (-) TimerEvent: {}
+[11.208090] (-) TimerEvent: {}
+[11.308515] (-) TimerEvent: {}
+[11.409110] (-) TimerEvent: {}
+[11.509778] (-) TimerEvent: {}
+[11.610396] (-) TimerEvent: {}
+[11.711143] (-) TimerEvent: {}
+[11.815724] (-) TimerEvent: {}
+[11.916187] (-) TimerEvent: {}
+[12.017093] (-) TimerEvent: {}
+[12.118040] (-) TimerEvent: {}
+[12.219130] (-) TimerEvent: {}
+[12.320142] (-) TimerEvent: {}
+[12.420991] (-) TimerEvent: {}
+[12.521939] (-) TimerEvent: {}
+[12.623411] (-) TimerEvent: {}
+[12.724336] (-) TimerEvent: {}
+[12.825103] (-) TimerEvent: {}
+[12.925684] (-) TimerEvent: {}
+[13.026530] (-) TimerEvent: {}
+[13.126937] (-) TimerEvent: {}
+[13.227480] (-) TimerEvent: {}
+[13.328023] (-) TimerEvent: {}
+[13.428918] (-) TimerEvent: {}
+[13.529338] (-) TimerEvent: {}
+[13.630084] (-) TimerEvent: {}
+[13.730842] (-) TimerEvent: {}
+[13.833155] (-) TimerEvent: {}
+[13.934466] (-) TimerEvent: {}
+[14.036103] (-) TimerEvent: {}
+[14.136507] (-) TimerEvent: {}
+[14.236983] (-) TimerEvent: {}
+[14.337653] (-) TimerEvent: {}
+[14.438288] (-) TimerEvent: {}
+[14.539008] (-) TimerEvent: {}
+[14.640162] (-) TimerEvent: {}
+[14.740908] (-) TimerEvent: {}
+[14.841725] (-) TimerEvent: {}
+[14.944079] (-) TimerEvent: {}
+[15.045057] (-) TimerEvent: {}
+[15.145727] (-) TimerEvent: {}
+[15.246967] (-) TimerEvent: {}
+[15.348586] (-) TimerEvent: {}
+[15.449312] (-) TimerEvent: {}
+[15.550186] (-) TimerEvent: {}
+[15.651167] (-) TimerEvent: {}
+[15.752228] (-) TimerEvent: {}
+[15.853533] (-) TimerEvent: {}
+[15.954026] (-) TimerEvent: {}
+[16.055292] (-) TimerEvent: {}
+[16.155924] (-) TimerEvent: {}
+[16.256544] (-) TimerEvent: {}
+[16.357057] (-) TimerEvent: {}
+[16.457809] (-) TimerEvent: {}
+[16.558342] (-) TimerEvent: {}
+[16.659190] (-) TimerEvent: {}
+[16.759904] (-) TimerEvent: {}
+[16.860673] (-) TimerEvent: {}
+[16.961498] (-) TimerEvent: {}
+[17.062166] (-) TimerEvent: {}
+[17.162925] (-) TimerEvent: {}
+[17.263512] (-) TimerEvent: {}
+[17.364079] (-) TimerEvent: {}
+[17.464625] (-) TimerEvent: {}
+[17.565471] (-) TimerEvent: {}
+[17.614551] (mi_robot_2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/mi_robot_2', 'build', '--build-base', '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/build', 'install', '--record', '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/install.log', '--single-version-externally-managed'], 'cwd': '/home/robotica/Desktop/Taller2/mi_robot_2/src/mi_robot_2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robotica', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robotica', 'OLDPWD': '/home/robotica/Desktop/Taller2/mi_robot_2', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'SYSTEMD_EXEC_PID': '2003', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotica', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robotica', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robotica-VirtualBox:@/tmp/.ICE-unix/1985,unix/robotica-VirtualBox:/tmp/.ICE-unix/1985', 'Coppelia_Root': '$/home/robotica/Downloads/Coppelia', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/07fd271e_b708_46a4_9250_8d5ece07bcff', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.75', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/prefix_override:/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages:/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces'}, 'shell': False}
+[17.665934] (-) TimerEvent: {}
+[17.766607] (-) TimerEvent: {}
+[17.867009] (-) TimerEvent: {}
+[17.967422] (-) TimerEvent: {}
+[18.068131] (-) TimerEvent: {}
+[18.168997] (-) TimerEvent: {}
+[18.269735] (-) TimerEvent: {}
+[18.370489] (-) TimerEvent: {}
+[18.471224] (-) TimerEvent: {}
+[18.572030] (-) TimerEvent: {}
+[18.672793] (-) TimerEvent: {}
+[18.773606] (-) TimerEvent: {}
+[18.874245] (-) TimerEvent: {}
+[18.974915] (-) TimerEvent: {}
+[19.075513] (-) TimerEvent: {}
+[19.176286] (-) TimerEvent: {}
+[19.276988] (-) TimerEvent: {}
+[19.377817] (-) TimerEvent: {}
+[19.429936] (mi_robot_2) StdoutLine: {'line': b'running egg_info\n'}
+[19.435480] (mi_robot_2) StdoutLine: {'line': b'writing ../build/mi_robot_2/mi_robot_2.egg-info/PKG-INFO\n'}
+[19.437603] (mi_robot_2) StdoutLine: {'line': b'writing dependency_links to ../build/mi_robot_2/mi_robot_2.egg-info/dependency_links.txt\n'}
+[19.439301] (mi_robot_2) StdoutLine: {'line': b'writing entry points to ../build/mi_robot_2/mi_robot_2.egg-info/entry_points.txt\n'}
+[19.443441] (mi_robot_2) StdoutLine: {'line': b'writing requirements to ../build/mi_robot_2/mi_robot_2.egg-info/requires.txt\n'}
+[19.445929] (mi_robot_2) StdoutLine: {'line': b'writing top-level names to ../build/mi_robot_2/mi_robot_2.egg-info/top_level.txt\n'}
+[19.464028] (mi_robot_2) StdoutLine: {'line': b"reading manifest file '../build/mi_robot_2/mi_robot_2.egg-info/SOURCES.txt'\n"}
+[19.470632] (mi_robot_2) StdoutLine: {'line': b"writing manifest file '../build/mi_robot_2/mi_robot_2.egg-info/SOURCES.txt'\n"}
+[19.471192] (mi_robot_2) StdoutLine: {'line': b'running build\n'}
+[19.471385] (mi_robot_2) StdoutLine: {'line': b'running build_py\n'}
+[19.472140] (mi_robot_2) StdoutLine: {'line': b'running install\n'}
+[19.475505] (mi_robot_2) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[19.475898] (mi_robot_2) StderrLine: {'line': b'  warnings.warn(\n'}
+[19.476535] (mi_robot_2) StdoutLine: {'line': b'running install_lib\n'}
+[19.478809] (-) TimerEvent: {}
+[19.487102] (mi_robot_2) StdoutLine: {'line': b'running install_data\n'}
+[19.492209] (mi_robot_2) StdoutLine: {'line': b'running install_egg_info\n'}
+[19.498899] (mi_robot_2) StdoutLine: {'line': b"removing '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[19.503442] (mi_robot_2) StdoutLine: {'line': b'Copying ../build/mi_robot_2/mi_robot_2.egg-info to /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2-0.0.0-py3.10.egg-info\n'}
+[19.515383] (mi_robot_2) StdoutLine: {'line': b'running install_scripts\n'}
+[19.579303] (-) TimerEvent: {}
+[19.621042] (mi_robot_2) StdoutLine: {'line': b'Installing robot_interface script to /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/mi_robot_2\n'}
+[19.623368] (mi_robot_2) StdoutLine: {'line': b'Installing robot_player script to /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/mi_robot_2\n'}
+[19.624009] (mi_robot_2) StdoutLine: {'line': b'Installing robot_teleop script to /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/mi_robot_2\n'}
+[19.627843] (mi_robot_2) StdoutLine: {'line': b"writing list of installed files to '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/install.log'\n"}
+[19.679557] (-) TimerEvent: {}
+[19.780190] (-) TimerEvent: {}
+[19.872715] (mi_robot_2) CommandEnded: {'returncode': 0}
+[19.899982] (-) TimerEvent: {}
+[19.977920] (mi_robot_2) JobEnded: {'identifier': 'mi_robot_2', 'rc': 0}
+[19.987760] (-) EventReactorShutdown: {}

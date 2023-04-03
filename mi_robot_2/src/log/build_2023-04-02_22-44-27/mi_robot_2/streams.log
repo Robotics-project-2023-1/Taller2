@@ -1,0 +1,28 @@
+[0.946s] Invoking command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/mi_robot_2': PYTHONPATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/prefix_override:/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mi_robot_2 build --build-base /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/build install --record /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/install.log --single-version-externally-managed
+[1.345s] running egg_info
+[1.348s] writing ../build/mi_robot_2/mi_robot_2.egg-info/PKG-INFO
+[1.350s] writing dependency_links to ../build/mi_robot_2/mi_robot_2.egg-info/dependency_links.txt
+[1.352s] writing entry points to ../build/mi_robot_2/mi_robot_2.egg-info/entry_points.txt
+[1.353s] writing requirements to ../build/mi_robot_2/mi_robot_2.egg-info/requires.txt
+[1.355s] writing top-level names to ../build/mi_robot_2/mi_robot_2.egg-info/top_level.txt
+[1.359s] reading manifest file '../build/mi_robot_2/mi_robot_2.egg-info/SOURCES.txt'
+[1.361s] writing manifest file '../build/mi_robot_2/mi_robot_2.egg-info/SOURCES.txt'
+[1.362s] running build
+[1.363s] running build_py
+[1.364s] copying mi_robot_2/robot_interface.py -> /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/build/lib/mi_robot_2
+[1.376s] running install
+[1.380s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.382s]   warnings.warn(
+[1.385s] running install_lib
+[1.387s] copying /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/build/lib/mi_robot_2/robot_interface.py -> /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2
+[1.390s] byte-compiling /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2/robot_interface.py to robot_interface.cpython-310.pyc
+[1.395s] running install_data
+[1.397s] running install_egg_info
+[1.400s] removing '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.408s] Copying ../build/mi_robot_2/mi_robot_2.egg-info to /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2-0.0.0-py3.10.egg-info
+[1.410s] running install_scripts
+[1.442s] Installing robot_interface script to /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/mi_robot_2
+[1.444s] Installing robot_player script to /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/mi_robot_2
+[1.445s] Installing robot_teleop script to /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/mi_robot_2
+[1.447s] writing list of installed files to '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/install.log'
+[1.505s] Invoked command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/mi_robot_2' returned '0': PYTHONPATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/prefix_override:/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mi_robot_2 build --build-base /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/build install --record /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/install.log --single-version-externally-managed

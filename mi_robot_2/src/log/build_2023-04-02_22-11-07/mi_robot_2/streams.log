@@ -1,0 +1,34 @@
+[1.789s] Invoking command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/mi_robot_2': AMENT_PREFIX_PATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces LD_LIBRARY_PATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/prefix_override:/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages:/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mi_robot_2 build --build-base /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/build install --record /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/install.log --single-version-externally-managed
+[2.176s] running egg_info
+[2.188s] writing ../build/mi_robot_2/mi_robot_2.egg-info/PKG-INFO
+[2.190s] writing dependency_links to ../build/mi_robot_2/mi_robot_2.egg-info/dependency_links.txt
+[2.192s] writing entry points to ../build/mi_robot_2/mi_robot_2.egg-info/entry_points.txt
+[2.193s] writing requirements to ../build/mi_robot_2/mi_robot_2.egg-info/requires.txt
+[2.194s] writing top-level names to ../build/mi_robot_2/mi_robot_2.egg-info/top_level.txt
+[2.202s] reading manifest file '../build/mi_robot_2/mi_robot_2.egg-info/SOURCES.txt'
+[2.207s] writing manifest file '../build/mi_robot_2/mi_robot_2.egg-info/SOURCES.txt'
+[2.210s] running build
+[2.211s] running build_py
+[2.212s] copying mi_robot_2/robot_interface.py -> /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/build/lib/mi_robot_2
+[2.213s] copying mi_robot_2/nodo_prueba.py -> /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/build/lib/mi_robot_2
+[2.214s] copying mi_robot_2/robot_player.py -> /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/build/lib/mi_robot_2
+[2.215s] running install
+[2.218s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.218s]   warnings.warn(
+[2.219s] running install_lib
+[2.221s] copying /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/build/lib/mi_robot_2/robot_interface.py -> /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2
+[2.223s] copying /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/build/lib/mi_robot_2/nodo_prueba.py -> /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2
+[2.224s] copying /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/build/lib/mi_robot_2/robot_player.py -> /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2
+[2.225s] byte-compiling /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2/robot_interface.py to robot_interface.cpython-310.pyc
+[2.229s] byte-compiling /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2/nodo_prueba.py to nodo_prueba.cpython-310.pyc
+[2.230s] byte-compiling /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2/robot_player.py to robot_player.cpython-310.pyc
+[2.236s] running install_data
+[2.237s] running install_egg_info
+[2.243s] removing '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2-0.0.0-py3.10.egg-info' (and everything under it)
+[2.247s] Copying ../build/mi_robot_2/mi_robot_2.egg-info to /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages/mi_robot_2-0.0.0-py3.10.egg-info
+[2.249s] running install_scripts
+[2.296s] Installing robot_interface script to /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/mi_robot_2
+[2.299s] Installing robot_player script to /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/mi_robot_2
+[2.302s] Installing robot_teleop script to /home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/mi_robot_2
+[2.304s] writing list of installed files to '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/install.log'
+[2.379s] Invoked command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/mi_robot_2' returned '0': AMENT_PREFIX_PATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces LD_LIBRARY_PATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/prefix_override:/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages:/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mi_robot_2 build --build-base /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/build install --record /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/install.log --single-version-externally-managed

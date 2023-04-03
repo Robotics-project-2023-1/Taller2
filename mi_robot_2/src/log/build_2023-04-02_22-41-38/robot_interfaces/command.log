@@ -1,0 +1,4 @@
+Invoking command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces -- -j1 -l1
+Invoked command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces -- -j1 -l1
+Invoking command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces
+Invoked command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces

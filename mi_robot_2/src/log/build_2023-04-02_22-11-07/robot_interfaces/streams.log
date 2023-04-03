@@ -1,0 +1,228 @@
+[0.061s] Invoking command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces': CMAKE_PREFIX_PATH=/home/robotica/Desktop/Taller2/src/mi_robot_2/install/mi_robot_2:/home/robotica/Desktop/Taller2/src/install/mi_robot_2:/opt/ros/humble /usr/bin/cmake /home/robotica/Desktop/Taller2/mi_robot_2/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces
+[0.866s] -- The C compiler identification is GNU 11.3.0
+[1.450s] -- The CXX compiler identification is GNU 11.3.0
+[1.507s] -- Detecting C compiler ABI info
+[1.746s] -- Detecting C compiler ABI info - done
+[1.798s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.840s] -- Detecting C compile features
+[1.845s] -- Detecting C compile features - done
+[1.874s] -- Detecting CXX compiler ABI info
+[2.262s] -- Detecting CXX compiler ABI info - done
+[2.336s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.338s] -- Detecting CXX compile features
+[2.341s] -- Detecting CXX compile features - done
+[2.399s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.974s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.462s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.482s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.545s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.776s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.955s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.869s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.801s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.888s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[6.894s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.994s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[6.996s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.999s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.000s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[7.080s] -- Found PythonExtra: .so  
+[7.299s] -- Configuring done
+[7.504s] -- Generating done
+[7.519s] -- Build files have been written to: /home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces
+[7.586s] Invoked command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/robotica/Desktop/Taller2/src/mi_robot_2/install/mi_robot_2:/home/robotica/Desktop/Taller2/src/install/mi_robot_2:/opt/ros/humble /usr/bin/cmake /home/robotica/Desktop/Taller2/mi_robot_2/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces
+[7.587s] Invoking command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces': CMAKE_PREFIX_PATH=/home/robotica/Desktop/Taller2/src/mi_robot_2/install/mi_robot_2:/home/robotica/Desktop/Taller2/src/install/mi_robot_2:/opt/ros/humble /usr/bin/cmake --build /home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces -- -j1 -l1
+[7.801s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.918s] [  3%] Built target robot_interfaces_srv__cpp
+[8.967s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.440s] [  9%] [32mBuilding CXX object CMakeFiles/robot_interfaces_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/srv/reproducir__type_support.cpp.o[0m
+[11.308s] [ 12%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_cpp.so[0m
+[11.448s] [ 12%] Built target robot_interfaces_srv__rosidl_typesupport_cpp
+[11.459s] [ 16%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.286s] [ 19%] [32mBuilding C object CMakeFiles/robot_interfaces_srv__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/reproducir__functions.c.o[0m
+[13.501s] [ 22%] [32m[1mLinking C shared library librobot_interfaces__rosidl_generator_c.so[0m
+[13.750s] [ 22%] Built target robot_interfaces_srv__rosidl_generator_c
+[13.799s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[16.926s] [ 29%] [32mBuilding CXX object CMakeFiles/robot_interfaces_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/srv/detail/reproducir__type_support_c.cpp.o[0m
+[20.033s] [ 32%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[21.262s] [ 32%] Built target robot_interfaces_srv__rosidl_typesupport_fastrtps_c
+[21.342s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[23.393s] [ 38%] [32mBuilding C object CMakeFiles/robot_interfaces_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/srv/detail/reproducir__type_support.c.o[0m
+[23.679s] [ 41%] [32m[1mLinking C shared library librobot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[23.724s] [ 41%] Built target robot_interfaces_srv__rosidl_typesupport_introspection_c
+[23.782s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[24.513s] [ 48%] [32mBuilding CXX object CMakeFiles/robot_interfaces_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/srv/reproducir__type_support.cpp.o[0m
+[24.601s] [ 51%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_c.so[0m
+[24.704s] [ 51%] Built target robot_interfaces_srv__rosidl_typesupport_c
+[24.721s] [ 54%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[25.538s] [ 58%] [32mBuilding CXX object CMakeFiles/robot_interfaces_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/reproducir__type_support.cpp.o[0m
+[26.350s] [ 61%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[26.603s] [ 61%] Built target robot_interfaces_srv__rosidl_typesupport_fastrtps_cpp
+[26.623s] [ 64%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[27.355s] [ 67%] [32mBuilding CXX object CMakeFiles/robot_interfaces_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/reproducir__type_support.cpp.o[0m
+[28.133s] [ 70%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[28.330s] [ 70%] Built target robot_interfaces_srv__rosidl_typesupport_introspection_cpp
+[28.354s] [ 70%] Built target robot_interfaces_srv
+[28.404s] [ 70%] Built target ament_cmake_python_copy_robot_interfaces
+[28.938s] running egg_info
+[28.941s] creating robot_interfaces.egg-info
+[28.943s] writing robot_interfaces.egg-info/PKG-INFO
+[28.946s] writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+[28.947s] writing top-level names to robot_interfaces.egg-info/top_level.txt
+[28.949s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[28.954s] reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[28.957s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[29.297s] [ 70%] Built target ament_cmake_python_build_robot_interfaces_egg
+[29.359s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[30.467s] [ 74%] Built target robot_interfaces_srv__py
+[30.503s] [ 77%] [32mBuilding C object CMakeFiles/robot_interfaces_srv__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_reproducir_s.c.o[0m
+[31.054s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/librobot_interfaces_srv__rosidl_generator_py.so[0m
+[31.374s] [ 80%] Built target robot_interfaces_srv__rosidl_generator_py
+[31.534s] [ 83%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[32.417s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[32.697s] [ 87%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[32.874s] [ 90%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[33.504s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[33.710s] [ 93%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[33.821s] [ 96%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[34.506s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[34.745s] [100%] Built target robot_interfaces__rosidl_typesupport_c__pyext
+[34.829s] Invoked command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/robotica/Desktop/Taller2/src/mi_robot_2/install/mi_robot_2:/home/robotica/Desktop/Taller2/src/install/mi_robot_2:/opt/ros/humble /usr/bin/cmake --build /home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces -- -j1 -l1
+[35.701s] Invoking command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces': CMAKE_PREFIX_PATH=/home/robotica/Desktop/Taller2/src/mi_robot_2/install/mi_robot_2:/home/robotica/Desktop/Taller2/src/install/mi_robot_2:/opt/ros/humble /usr/bin/cmake --install /home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces
+[35.793s] -- Install configuration: ""
+[35.800s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces
+[35.806s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[35.807s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[35.808s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[35.808s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__struct.h
+[35.809s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__functions.h
+[35.813s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__functions.c
+[35.816s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__type_support.h
+[35.817s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/reproducir.h
+[35.818s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[35.818s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[35.821s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh
+[35.825s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv
+[35.826s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so
+[35.826s] -- Set runtime path of "/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so" to ""
+[35.827s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[35.827s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[35.827s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[35.827s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__rosidl_typesupport_fastrtps_c.h
+[35.827s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[35.829s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[35.838s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[35.845s] -- Set runtime path of "/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[35.847s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[35.849s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[35.853s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[35.854s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__rosidl_typesupport_introspection_c.h
+[35.856s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__type_support.c
+[35.864s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[35.869s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[35.870s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so
+[35.870s] -- Set runtime path of "/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[35.871s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so
+[35.872s] -- Set runtime path of "/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so" to ""
+[35.872s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[35.872s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[35.872s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[35.873s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__builder.hpp
+[35.873s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__traits.hpp
+[35.877s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__struct.hpp
+[35.880s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/reproducir.hpp
+[35.880s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[35.882s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[35.883s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[35.883s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/dds_fastrtps
+[35.883s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__rosidl_typesupport_fastrtps_cpp.hpp
+[35.883s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[35.884s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[35.884s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[35.885s] -- Set runtime path of "/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[35.887s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[35.888s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[35.889s] -- Up-to-date: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[35.891s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__rosidl_typesupport_introspection_cpp.hpp
+[35.899s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/reproducir__type_support.cpp
+[35.905s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[35.908s] -- Set runtime path of "/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[35.908s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so
+[35.909s] -- Set runtime path of "/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so" to ""
+[35.911s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh
+[35.913s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv
+[35.915s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info
+[35.915s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[35.916s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[35.916s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[35.916s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[35.916s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces
+[35.917s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[35.921s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[35.925s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[35.926s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv
+[35.930s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_reproducir.py
+[35.931s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/__init__.py
+[35.931s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_reproducir_s.c
+[35.932s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[35.932s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[35.933s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py
+[35.933s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[35.936s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces_srv__rosidl_generator_py.so
+[36.203s] Listing '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...
+[36.203s] Compiling '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py'...
+[36.203s] Listing '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv'...
+[36.203s] Compiling '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/__init__.py'...
+[36.204s] Compiling '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_reproducir.py'...
+[36.317s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[36.319s] -- Set runtime path of "/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[36.320s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[36.322s] -- Set runtime path of "/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[36.322s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[36.325s] -- Set runtime path of "/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[36.325s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces_srv__rosidl_generator_py.so
+[36.326s] -- Set runtime path of "/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/librobot_interfaces_srv__rosidl_generator_py.so" to ""
+[36.329s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/srv/Reproducir.idl
+[36.329s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/srv/Reproducir.srv
+[36.330s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/srv/Reproducir_Request.msg
+[36.330s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/srv/Reproducir_Response.msg
+[36.332s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+[36.333s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+[36.333s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+[36.334s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+[36.337s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+[36.339s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+[36.345s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+[36.345s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+[36.346s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+[36.350s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+[36.353s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/package.dsv
+[36.357s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+[36.362s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_generator_cExport.cmake
+[36.366s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_generator_cExport-noconfig.cmake
+[36.369s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_typesupport_fastrtps_cExport.cmake
+[36.376s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[36.380s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces_srv__rosidl_typesupport_introspection_cExport.cmake
+[36.385s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces_srv__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[36.395s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces_srv__rosidl_typesupport_cExport.cmake
+[36.409s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces_srv__rosidl_typesupport_cExport-noconfig.cmake
+[36.411s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_generator_cppExport.cmake
+[36.414s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_typesupport_fastrtps_cppExport.cmake
+[36.425s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[36.433s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces_srv__rosidl_typesupport_introspection_cppExport.cmake
+[36.435s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces_srv__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[36.451s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces_srv__rosidl_typesupport_cppExport.cmake
+[36.453s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces_srv__rosidl_typesupport_cppExport-noconfig.cmake
+[36.462s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_generator_pyExport.cmake
+[36.466s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces_srv__rosidl_generator_pyExport-noconfig.cmake
+[36.478s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[36.483s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.485s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[36.488s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[36.493s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[36.500s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.514s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[36.515s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+[36.516s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+[36.517s] -- Installing: /home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/package.xml
+[36.537s] Invoked command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/robotica/Desktop/Taller2/src/mi_robot_2/install/mi_robot_2:/home/robotica/Desktop/Taller2/src/install/mi_robot_2:/opt/ros/humble /usr/bin/cmake --install /home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces

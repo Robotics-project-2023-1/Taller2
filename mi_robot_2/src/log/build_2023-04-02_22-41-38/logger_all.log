@@ -1,0 +1,184 @@
+[6.079s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[6.080s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=1, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f949245c400>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9492dd33a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9492dd33a0>>)
+[6.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.486s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robotica/Desktop/Taller2/mi_robot_2/src'
+[6.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.775s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.775s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(mi_robot_2) by extensions ['ignore', 'ignore_ament_install']
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(mi_robot_2) by extension 'ignore'
+[6.777s] Level 1:colcon.colcon_core.package_identification:_identify(mi_robot_2) by extension 'ignore_ament_install'
+[6.777s] Level 1:colcon.colcon_core.package_identification:_identify(mi_robot_2) by extensions ['colcon_pkg']
+[6.777s] Level 1:colcon.colcon_core.package_identification:_identify(mi_robot_2) by extension 'colcon_pkg'
+[6.777s] Level 1:colcon.colcon_core.package_identification:_identify(mi_robot_2) by extensions ['colcon_meta']
+[6.777s] Level 1:colcon.colcon_core.package_identification:_identify(mi_robot_2) by extension 'colcon_meta'
+[6.777s] Level 1:colcon.colcon_core.package_identification:_identify(mi_robot_2) by extensions ['ros']
+[6.777s] Level 1:colcon.colcon_core.package_identification:_identify(mi_robot_2) by extension 'ros'
+[6.812s] DEBUG:colcon.colcon_core.package_identification:Package 'mi_robot_2' with type 'ros.ament_python' and name 'mi_robot_2'
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(robot_interfaces) by extension 'ignore'
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(robot_interfaces) by extension 'ignore_ament_install'
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(robot_interfaces) by extensions ['colcon_pkg']
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(robot_interfaces) by extension 'colcon_pkg'
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(robot_interfaces) by extensions ['colcon_meta']
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(robot_interfaces) by extension 'colcon_meta'
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(robot_interfaces) by extensions ['ros']
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(robot_interfaces) by extension 'ros'
+[6.824s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_interfaces' with type 'ros.ament_cmake' and name 'robot_interfaces'
+[6.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.255s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[7.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.962s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[7.962s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[7.962s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.962s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[7.962s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[7.962s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[7.962s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[7.962s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[7.962s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.962s] DEBUG:colcon.colcon_core.verb:Building package 'robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces', 'merge_install': False, 'path': '/home/robotica/Desktop/Taller2/mi_robot_2/src/robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[7.992s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_2' build argument 'cmake_args' from command line to 'None'
+[7.992s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_2' build argument 'cmake_target' from command line to 'None'
+[7.992s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.992s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_2' build argument 'cmake_clean_cache' from command line to 'False'
+[7.992s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_2' build argument 'cmake_clean_first' from command line to 'False'
+[7.992s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_2' build argument 'cmake_force_configure' from command line to 'False'
+[7.992s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_2' build argument 'ament_cmake_args' from command line to 'None'
+[7.995s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_2' build argument 'catkin_cmake_args' from command line to 'None'
+[7.995s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.995s] DEBUG:colcon.colcon_core.verb:Building package 'mi_robot_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2', 'merge_install': False, 'path': '/home/robotica/Desktop/Taller2/mi_robot_2/src/mi_robot_2', 'symlink_install': False, 'test_result_base': None}
+[7.996s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.040s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.040s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotica/Desktop/Taller2/mi_robot_2/src/robot_interfaces' with build type 'ament_cmake'
+[8.041s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotica/Desktop/Taller2/mi_robot_2/src/robot_interfaces'
+[8.174s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.175s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.175s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces -- -j1 -l1
+[14.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces -- -j1 -l1
+[15.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces
+[16.435s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interfaces)
+[16.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotica/Desktop/Taller2/mi_robot_2/src/build/robot_interfaces
+[16.499s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces' for CMake module files
+[16.507s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces' for CMake config files
+[16.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'cmake_prefix_path')
+[16.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.ps1'
+[16.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.dsv'
+[16.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.sh'
+[16.591s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib'
+[16.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'ld_library_path_lib')
+[16.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.ps1'
+[16.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.dsv'
+[16.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.sh'
+[16.630s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/bin'
+[16.630s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/pkgconfig/robot_interfaces.pc'
+[16.631s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/python3.10/site-packages'
+[16.632s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/bin'
+[16.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/package.ps1'
+[16.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/package.dsv'
+[16.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/package.sh'
+[16.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/package.bash'
+[16.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/package.zsh'
+[16.734s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/colcon-core/packages/robot_interfaces)
+[17.472s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interfaces)
+[17.483s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces' for CMake module files
+[17.484s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces' for CMake config files
+[17.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'cmake_prefix_path')
+[17.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.ps1'
+[17.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.dsv'
+[17.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.sh'
+[17.511s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib'
+[17.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'ld_library_path_lib')
+[17.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.ps1'
+[17.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.dsv'
+[17.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.sh'
+[17.578s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/bin'
+[17.579s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/pkgconfig/robot_interfaces.pc'
+[17.586s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib/python3.10/site-packages'
+[17.586s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/bin'
+[17.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/package.ps1'
+[17.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/package.dsv'
+[17.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/package.sh'
+[17.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/package.bash'
+[17.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/robot_interfaces/package.zsh'
+[17.630s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/share/colcon-core/packages/robot_interfaces)
+[17.635s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotica/Desktop/Taller2/mi_robot_2/src/mi_robot_2' with build type 'ament_python'
+[17.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('mi_robot_2', 'ament_prefix_path')
+[17.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/share/mi_robot_2/hook/ament_prefix_path.ps1'
+[17.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/share/mi_robot_2/hook/ament_prefix_path.dsv'
+[17.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/share/mi_robot_2/hook/ament_prefix_path.sh'
+[17.675s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.675s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.107s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotica/Desktop/Taller2/mi_robot_2/src/mi_robot_2'
+[21.109s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.109s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/mi_robot_2': AMENT_PREFIX_PATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces LD_LIBRARY_PATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/prefix_override:/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages:/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mi_robot_2 build --build-base /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/build install --record /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/install.log --single-version-externally-managed
+[27.909s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2' for CMake module files
+[27.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotica/Desktop/Taller2/mi_robot_2/src/mi_robot_2' returned '0': AMENT_PREFIX_PATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces LD_LIBRARY_PATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/prefix_override:/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages:/home/robotica/Desktop/Taller2/mi_robot_2/src/install/robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mi_robot_2 build --build-base /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/build install --record /home/robotica/Desktop/Taller2/mi_robot_2/src/build/mi_robot_2/install.log --single-version-externally-managed
+[27.915s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2' for CMake config files
+[27.915s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib'
+[27.916s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/bin'
+[27.916s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/pkgconfig/mi_robot_2.pc'
+[27.916s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/lib/python3.10/site-packages'
+[27.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('mi_robot_2', 'pythonpath')
+[27.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/share/mi_robot_2/hook/pythonpath.ps1'
+[27.952s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/share/mi_robot_2/hook/pythonpath.dsv'
+[27.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/share/mi_robot_2/hook/pythonpath.sh'
+[27.973s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/bin'
+[27.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mi_robot_2)
+[27.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/share/mi_robot_2/package.ps1'
+[27.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/share/mi_robot_2/package.dsv'
+[27.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/share/mi_robot_2/package.sh'
+[27.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/share/mi_robot_2/package.bash'
+[27.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/share/mi_robot_2/package.zsh'
+[28.013s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotica/Desktop/Taller2/mi_robot_2/src/install/mi_robot_2/share/colcon-core/packages/mi_robot_2)
+[28.018s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[28.026s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[28.027s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[28.027s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[28.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[28.079s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[28.079s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[28.172s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[28.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/local_setup.ps1'
+[28.179s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/_local_setup_util_ps1.py'
+[28.195s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/setup.ps1'
+[28.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/local_setup.sh'
+[28.217s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/_local_setup_util_sh.py'
+[28.217s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/setup.sh'
+[28.232s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/local_setup.bash'
+[28.239s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/setup.bash'
+[28.250s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/local_setup.zsh'
+[28.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotica/Desktop/Taller2/mi_robot_2/src/install/setup.zsh'
