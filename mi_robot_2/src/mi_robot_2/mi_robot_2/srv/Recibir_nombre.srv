@@ -1,3 +1,0 @@
-string nombre # nombre del archivo .txt a ejecutar
----
-bool respuesta   # indica que el servicio se llevo a cabo satisfactoriamente
